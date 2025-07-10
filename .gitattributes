@@ -1,0 +1,2 @@
+$ cat .gitattributes
+*.al linguist-language=AL

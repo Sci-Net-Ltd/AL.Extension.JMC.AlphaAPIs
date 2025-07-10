@@ -1,0 +1,51 @@
+{
+  "id": "6360f90c-daa2-4d50-bfac-fa5ed58caf5e",
+  "name": "Alpha APIs",
+  "publisher": "Sci-Net Ltd",
+  "version": "26.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./img/sci-net.png",
+  "dependencies": [
+    {
+      "id": "dc9e50c9-32ea-4f55-8ab4-3c8eadaeada7",
+      "name": "Jessica McCormack",
+      "version": "1.0.0.0",
+      "publisher": "Sci-Net Ltd"
+    },
+    {
+      "id": "132a3499-6f4a-497c-9f3c-0ac8a9e9affc",
+      "name": "ERPJewelry",
+      "publisher": "Sci-Net Ltd",
+      "version": "1.0.0.32"
+    },
+    {
+      "id": "20a33132-2f7a-474c-929f-104ea80c2709",
+      "name": "Container",
+      "version": "1.0.0.33",
+      "publisher": "Sci-Net Ltd"
+    }
+],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 70000,
+      "to": 70019
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

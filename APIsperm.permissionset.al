@@ -6,5 +6,6 @@ permissionset 70000 APIsperm
     Permissions = page PTEAPICustomers=X,
         page PTEAPIItems=X,
         page PTEAPIItemsCategories=X,
-        page PTEAPIItemsSubCategories=X;
+        page PTEAPIItemsSubCategories=X,
+        page PTEAPISpecialDates=X;
 }

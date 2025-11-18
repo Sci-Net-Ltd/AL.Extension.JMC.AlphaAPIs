@@ -246,13 +246,6 @@ page 70000 PTEAPICustomers
                     EntitySetName = 'specialDates';
                     SubPageLink = "Customer No." = field("No.");
                 }
-                /*  part(notes; PTEAPIrecordLink)
-                  {
-                      Caption = 'Notes', Locked = true;
-                      EntityName = 'recordlink';
-                      EntitySetName = 'recordlinks';
-                      //SubPageView = where("Record ID" = const('%'+ "No." + '%')));
-                  }*/
             }
         }
     }

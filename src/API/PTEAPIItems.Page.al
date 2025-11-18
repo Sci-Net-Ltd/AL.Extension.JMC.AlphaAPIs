@@ -14,7 +14,7 @@ page 70001 PTEAPIItems
     DelayedInsert = true;
     ODataKeyFields = SystemId;
     SourceTableView = where("Unit Price" = filter(> 50));
-    Editable = false;
+    Editable = true;
     PageType = API;
     SourceTable = Item;
     UsageCategory = Lists;

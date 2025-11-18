@@ -12,7 +12,7 @@ page 70004 PTEAPISpecialDates
     ModifyAllowed = true;
     DelayedInsert = true;
     ODataKeyFields = SystemId, "Customer No.", "Date Type";
-    Editable = false;
+    Editable = true;
     PageType = API;
     SourceTable = PTESpecialDates;
     Extensible = true;

@@ -107,7 +107,7 @@ page 70006 PTEItemInventoryAPI
 
         Rec.Setfilter("Location Filter", SaleableLocationFilter);
         Rec.CalcFields("Inventory", "Qty. on Sales Order");
-        Rec.SetFilter(Inventory, '>0');
+        //Rec.SetFilter(Inventory, '>0');
     end;
 
     trigger OnAfterGetRecord()

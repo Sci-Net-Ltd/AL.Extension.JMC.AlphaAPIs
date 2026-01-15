@@ -49,7 +49,7 @@ page 70007 PTEStockUnits
     trigger OnOpenPage()
     begin
         Rec.CalcFields(Inventory, "Qty. on Sales Order", "Reserved Qty. on Inventory");
-        Rec.SetFilter(Inventory, '>0');
+        //Rec.SetFilter(Inventory, '>0');
     end;
 
     trigger OnAfterGetCurrRecord()

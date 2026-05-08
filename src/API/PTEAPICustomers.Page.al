@@ -231,13 +231,17 @@ page 70000 PTEAPICustomers
                 {
                     Caption = 'Alpha User ID';
                 }
+                field(systemModifiedAt; Rec.SystemModifiedAt)
+                {
+                    Caption = 'System Modified At';
+                }
                 field(lastDateModified; Rec."Last Date Modified")
                 {
                     Caption = 'Last Date Modified';
                 }
                 field(recordID; Rec.RecordId)
                 {
-                    Caption = 'System Modified At';
+                    Caption = 'Record ID';
                 }
                 part(specialDates; PTEAPISpecialDates)
                 {

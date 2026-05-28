@@ -231,6 +231,10 @@ page 70000 PTEAPICustomers
                 {
                     Caption = 'Alpha User ID';
                 }
+                field(systemCreatedAt; Rec.SystemCreatedAt)
+                {
+                    Caption = 'System Created At';
+                }
                 field(systemModifiedAt; Rec.SystemModifiedAt)
                 {
                     Caption = 'System Modified At';
